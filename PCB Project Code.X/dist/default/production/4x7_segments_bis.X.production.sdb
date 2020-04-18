@@ -1,0 +1,320 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1518 ]
+[d frameptr 6 ]
+"167 C:\Users\Thomas Vandermeersch\MPLABXProjects\4x7 segments_bis.X\main.c
+[e E1696 . `uc
+channel_AN0 0
+channel_Temp 30
+channel_FVR 31
+]
+"85 C:\Users\Thomas Vandermeersch\MPLABXProjects\4x7 segments_bis.X\mcc_generated_files/adc.c
+[e E1681 . `uc
+channel_AN0 0
+channel_Temp 30
+channel_FVR 31
+]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"5 C:\Users\Thomas Vandermeersch\MPLABXProjects\4x7 segments_bis.X\main.c
+[v _ecran ecran `(v  1 e 1 0 ]
+"43
+[v _call_number call_number `(v  1 e 1 0 ]
+"156
+[v _main main `(v  1 e 1 0 ]
+"67 C:\Users\Thomas Vandermeersch\MPLABXProjects\4x7 segments_bis.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"112
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+"50 C:\Users\Thomas Vandermeersch\MPLABXProjects\4x7 segments_bis.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"59
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"67
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Thomas Vandermeersch\MPLABXProjects\4x7 segments_bis.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"1052 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f1518.h
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1114
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1176
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S55 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1364
+[s S62 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S69 . 1 `S55 1 . 1 0 `S62 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES69  1 e 1 @149 ]
+"1481
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1540
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1668
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"1688
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1708
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S200 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+"1733
+[s S204 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+[s S212 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[u S215 . 1 `S200 1 . 1 0 `S204 1 . 1 0 `S212 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES215  1 e 1 @157 ]
+"1788
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"1854
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+[s S96 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"1871
+[u S105 . 1 `S96 1 . 1 0 ]
+[v _LATAbits LATAbits `VES105  1 e 1 @268 ]
+"1916
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"1978
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+[s S121 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"1995
+[u S130 . 1 `S121 1 . 1 0 ]
+[v _LATCbits LATCbits `VES130  1 e 1 @270 ]
+"2040
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"2132
+[v _APFCON APFCON `VEuc  1 e 1 @285 ]
+"2158
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2211
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"2269
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"2837
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"2907
+[v _WPUE WPUE `VEuc  1 e 1 @528 ]
+"156 C:\Users\Thomas Vandermeersch\MPLABXProjects\4x7 segments_bis.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"167
+[v main@tension tension `i  1 a 2 63 ]
+"159
+[v main@timmer timmer `i  1 a 2 67 ]
+"160
+[v main@conversion conversion `i  1 a 2 65 ]
+"174
+} 0
+"5
+[v _ecran ecran `(v  1 e 1 0 ]
+{
+"10
+[v ecran@nb3 nb3 `i  1 a 2 10 ]
+"9
+[v ecran@nb2 nb2 `i  1 a 2 8 ]
+"8
+[v ecran@nb1 nb1 `i  1 a 2 6 ]
+"5
+[v ecran@nombre nombre `i  1 p 2 4 ]
+"38
+} 0
+"43
+[v _call_number call_number `(v  1 e 1 0 ]
+{
+[v call_number@nb nb `i  1 p 2 0 ]
+"154
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 6 ]
+[v ___awmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 0 ]
+[v ___awmod@dividend dividend `i  1 p 2 2 ]
+"34
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 2 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 1 ]
+[v ___awdiv@counter counter `uc  1 a 1 0 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 7 ]
+[v ___awdiv@dividend dividend `i  1 p 2 9 ]
+"41
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 62 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 61 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 52 ]
+"70
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S415 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S420 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S423 . 4 `l 1 i 4 0 `d 1 f 4 0 `S415 1 fAsBytes 4 0 `S420 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S423  1 a 4 46 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 40 ]
+[s S492 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S495 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S492 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S495  1 a 2 50 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 45 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 44 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 39 ]
+"8
+[v ___flmul@b b `d  1 p 4 26 ]
+[v ___flmul@a a `d  1 p 4 30 ]
+"205
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 20 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 13 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 18 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 25 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 24 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 17 ]
+"8
+[v ___fldiv@a a `d  1 p 4 0 ]
+[v ___fldiv@b b `d  1 p 4 4 ]
+"185
+} 0
+"50 C:\Users\Thomas Vandermeersch\MPLABXProjects\4x7 segments_bis.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"57
+} 0
+"67
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
+"55 C:\Users\Thomas Vandermeersch\MPLABXProjects\4x7 segments_bis.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"96
+} 0
+"59 C:\Users\Thomas Vandermeersch\MPLABXProjects\4x7 segments_bis.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"65
+} 0
+"67 C:\Users\Thomas Vandermeersch\MPLABXProjects\4x7 segments_bis.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"83
+} 0
+"112
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+{
+[v ADC_GetConversion@channel channel `E1681  1 a 1 wreg ]
+[v ADC_GetConversion@channel channel `E1681  1 a 1 wreg ]
+"115
+[v ADC_GetConversion@channel channel `E1681  1 a 1 3 ]
+"133
+} 0
